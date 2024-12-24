@@ -32,4 +32,7 @@ if my_dataframe:
 else:
         st.success('There are no pending order right now', icon = '✅')
 
+import requests
+smoothiefroot_response = requests.get("https://my.smoothiefroot.com/api/fruit/watermelon")
+st.text(smoothiefroot_response)
 
