@@ -4,7 +4,6 @@ import requests
 import pandas
 from snowflake.snowpark.context import get_active_session
 from snowflake.snowpark.functions import col
-from snowflake.snowpark import Session
 
 
 # Write directly to the app
